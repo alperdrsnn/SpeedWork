@@ -45,3 +45,13 @@ Include in the page to use auxiliary functions. <a href="">Click here</a> to rev
 use SpeedWeb\helpers\ArrayHelper;
 use SpeedWeb\helpers\DeviceHelper;
 ```
+
+# 404 Page
+Create a 404 page to redirect pages not created. (IT MUST BE CREATED ON TOP OF ALL PAGES)
+```php
+Route::set404Page("/404");
+//and create 404 page
+Route::run("/404", function(){
+  echo "My not found page!";
+});
+```
