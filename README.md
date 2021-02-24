@@ -32,3 +32,16 @@ public function function(){
 
 //Finally, create the file with the name of your choice in the view folder. And use this file as frontend.
 ```
+2- If you don't want to create a file, define the second parameter as a function.
+```php
+Route::run("/", function(){
+  echo "Hello World"
+});
+```
+
+# Helpers
+Include in the page to use auxiliary functions. <a href="">Click here</a> to review function usages
+```php
+use SpeedWeb\helpers\ArrayHelper;
+use SpeedWeb\helpers\DeviceHelper;
+```
