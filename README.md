@@ -1,6 +1,7 @@
 # SpeedWork
 > SpeedWeb is an easy and useful web framework for php.
+<br>
 <hr>
-
-# Team Members
+<br>
+# Developers
 * "Alper Dursun" <dursunalper1@gmail.com>
