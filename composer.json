@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "SpeedWeb\\": "./src"
+    }
+  },
+  "require": {
+    "catfan/medoo": "^1.7",
+    "mobiledetect/mobiledetectlib": "^2.8",
+    "jaybizzle/crawler-detect": "^1.2"
+  }
+}
