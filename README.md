@@ -5,8 +5,8 @@
 Download the project files and add them to the project directory.
 
 # Get Start
-1- Type "composer install" in the terminal.
-2- Create "index.php" file.
+1- Type "composer install" in the terminal.<br>
+2- Create "index.php" file.<br>
 3- Include autoload file in the page.
 ```php
 require_once '/vendor/autoload.php';
